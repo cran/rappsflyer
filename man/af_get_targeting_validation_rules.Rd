@@ -1,10 +1,10 @@
 \name{af_get_targeting_validation_rules}
 \alias{af_get_targeting_validation_rules}
 \title{
-Get Targeting Validation Rules
+Get targeting validation rules
 }
 \description{
-Get targeting validation rules from 'AppsFlyer'
+Get targeting validation rules from AppsFlyer
 }
 \usage{
 af_get_targeting_validation_rules(
@@ -34,7 +34,7 @@ af_get_targeting_validation_rules(
                              "campaign_type",
                              "is_lat"),
   timezone               = "Europe/Moscow",
-  maximum_rows           = 1000000,
+  maximum_rows           = 200000,
   app_id                 = getOption("apps_flyer_app_id"),
   api_token              = getOption("apps_flyer_api_key")
 )
@@ -62,17 +62,14 @@ Report rows limit.
 Your app id from apps flyer.
 }
   \item{api_token}{
-Your AppsFlyer API token V1.0 for more details go \href{https://support.appsflyer.com/hc/en-us/articles/360004562377}{link}
+Your AppsFlyer API token V1.0 for more details go \href{https://support.appsflyer.com/hc/en-us/articles/360004562377-Managing-AppsFlyer-tokens}{link}
 }
-}
-\value{
-data.frame.
 }
 \author{
 Alexey Seleznev
 }
 \seealso{
-\href{https://support.appsflyer.com/hc/en-us/articles/207034346-Pull-APIs-Pulling-AppsFlyer-Reports-by-APIs}{AppsFlyer Pull API documentation}
+\href{https://support.appsflyer.com/hc/en-us/articles/207034346-Pull-API-aggregate-data}{AppsFlyer Pull API documentation}
 }
 \examples{
 \dontrun{

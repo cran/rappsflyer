@@ -1,7 +1,7 @@
 \name{af_get_aggregate_data}
 \alias{af_get_aggregate_data}
 \title{
-Get 'AppsFlyer' Aggregate Data Reports
+Get AppsFlyer aggregate data
 }
 \description{
 Get AppsFlyer Aggregate (user acquisition and retargeting) data
@@ -49,7 +49,7 @@ Character vector of report's additional fields.
 Use to limit (filter) to a specific media source.for example, if you need inly facebook data in your report use media_source="facebook".
 }
   \item{attribution_touch_type}{
-Set this parameter as shown in the example to get \href{https://support.appsflyer.com/hc/en-us/articles/207034346#viewthrough-attribution-vta-kpis}{view-through attribution} (VTA) KPIs. For example attribution_touch_type="impression".
+Set this parameter as shown in the example to get \href{https://support.appsflyer.com/hc/en-us/articles/207034346-Pull-API-aggregate-data#viewthrough-attribution-vta-kpis}{view-through attribution} (VTA) KPIs. For example attribution_touch_type="impression".
 }
   \item{currency}{
 Currency of revenue and cost. Aggregate Pull API reports always use the app-specific currency.
@@ -64,17 +64,14 @@ If TRUE you get retargeting data.
 Your app id from apps flyer.
 }
   \item{api_token}{
-Your AppsFlyer API token V1.0 for more details go \href{https://support.appsflyer.com/hc/en-us/articles/360004562377}{link}.
+Your AppsFlyer API token V1.0 for more details go \href{https://support.appsflyer.com/hc/en-us/articles/360004562377-Managing-AppsFlyer-tokens}{link}.
 }
-}
-\value{
-data.frame.
 }
 \author{
 Alexey Seleznev
 }
 \seealso{
-\href{https://support.appsflyer.com/hc/en-us/articles/207034346-Pull-APIs-Pulling-AppsFlyer-Reports-by-APIs}{AppsFlyer Pull API documentation}
+\href{https://support.appsflyer.com/hc/en-us/articles/207034346-Pull-API-aggregate-data}{AppsFlyer Pull API documentation}
 }
 \examples{
 \dontrun{

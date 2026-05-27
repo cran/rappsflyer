@@ -16,7 +16,7 @@ rappsflyerWelcomeMessage <- function(){
          "Telegram channel: https://t.me/R4marketing \n",
          "Email:            selesnow@gmail.com\n",
          "Blog:             https://alexeyseleznev.wordpress.com \n",
-         "Facebook:         https://facebook.com/selesnown \n",
+         "Facebook:         https://www.facebook.com/selesnown \n",
          "Linkedin:         https://www.linkedin.com/in/selesnow \n",
          "\n",
          "Type ?rappsflyer for the main documentation.\n",

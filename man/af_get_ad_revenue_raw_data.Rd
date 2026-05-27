@@ -2,10 +2,10 @@
 \alias{af_get_ad_revenue_raw_data}
 
 \title{
-Get Ad Revenue Raw Data
+Get ad revenue raw data
 }
 \description{
-Get ad revenue raw data from 'AppsFlyer Pull API'
+Get ad revenue raw data from AppsFlyer Pull API
 }
 \usage{
 af_get_ad_revenue_raw_data(
@@ -27,7 +27,7 @@ af_get_ad_revenue_raw_data(
                           "is_lat"),
     timezone = "Europe/Moscow",
     retargeting = NULL,
-    maximum_rows = 1000000,
+    maximum_rows = 200000,
     app_id = getOption("apps_flyer_app_id"),
     api_token = getOption("apps_flyer_api_key"))
 }
@@ -61,17 +61,14 @@ Report rows limit.
 Your app id from apps flyer.
 }
   \item{api_token}{
-Your AppsFlyer API token V1.0 for more details go \href{https://support.appsflyer.com/hc/en-us/articles/360004562377}{link}.
+Your AppsFlyer API token V1.0 for more details go \href{https://support.appsflyer.com/hc/en-us/articles/360004562377-Managing-AppsFlyer-tokens}{link}.
 }
-}
-\value{
-data.frame.
 }
 \author{
 Alexey Seleznev
 }
 \seealso{
-\href{https://support.appsflyer.com/hc/en-us/articles/207034346-Pull-APIs-Pulling-AppsFlyer-Reports-by-APIs}{AppsFlyer Pull API documentation}
+\href{https://support.appsflyer.com/hc/en-us/articles/207034346-Pull-API-aggregate-data}{AppsFlyer Pull API documentation}
 }
 \examples{
 \dontrun{

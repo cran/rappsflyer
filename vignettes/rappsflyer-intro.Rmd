@@ -19,7 +19,7 @@ library(rappsflyer)
 ```
 
 # Авторизационный токен
-Для работы с API AppsFlyer вам необходимо получить авторизационный токен. Более подробно об этом можно узнать в этой [статье](https://support.appsflyer.com/hc/en-us/articles/360004562377).
+Для работы с API AppsFlyer вам необходимо получить авторизационный токен. Более подробно об этом можно узнать в этой [статье](https://support.appsflyer.com/hc/en-us/articles/360004562377-Managing-AppsFlyer-tokens).
 
 Если в кратце то администраторы могут выдавать пользователям токены. 
 
@@ -34,12 +34,12 @@ library(rappsflyer)
 # Приложение по которому вы запрашиваете данные
 В каждой из функций есть аргумент `app_id` в который необходимо передавать id вашего приложения, найти id можно в интерфейсе AppsFlyer.
 
-![Где найти ID приложения](http://img.netpeak.ua/alsey/18EA36Z.png)
+![Где найти ID приложения](https://img.netpeak.ua/alsey/18EA36Z.png)
 
 # Запрос данных из API AppsFlyer
 После того как установили свой API token вы можете запрашивать данные из Pull API. Для большего понимания структуры пакета `rappsflyer` вы можете перейти в интерфейсе AppsFlyer в Интеграции > API Доступ.
 
-![API Доступ](http://img.netpeak.ua/alsey/18EAD7Q.png)
+![API Доступ](https://img.netpeak.ua/alsey/18EAD7Q.png)
 
 Каждая из функций пакета соответвует определённому разделу API доступа.
 
@@ -64,7 +64,7 @@ library(rappsflyer)
 * timezone - Часовой пояс
 * retargeting - Получить данные по конверсии ретаргетинга. 
 
-Официальная справка по получению агрегированных отчётов из API AppsFlyer доступна по [ссылке](https://support.appsflyer.com/hc/ru/articles/207034346-Pull-APIs-Pulling-AppsFlyer-Reports-by-APIs).
+Официальная справка по получению агрегированных отчётов из API AppsFlyer доступна по [ссылке](https://support.appsflyer.com/hc/ru/articles/207034346-\%D0\%B0\%D0\%B3\%D1\%80\%D0\%B5\%D0\%B3\%D0\%B8\%D1\%80\%D0\%BE\%D0\%B2\%D0\%B0\%D0\%BD\%D0\%BD\%D1\%8B\%D0\%B5-\%D0\%B4\%D0\%B0\%D0\%BD\%D0\%BD\%D1\%8B\%D0\%B5-Pull-API).
 
 ## Отчеты по сырым данным
 
@@ -76,13 +76,13 @@ library(rappsflyer)
 * in_app_events_report
 * uninstall_events_report
 
-Официальная справка по получению отчётов с сырыми данными из API AppsFlyer доступна по [ссылке](https://support.appsflyer.com/hc/en-us/articles/360007530258-Using-Pull-API-raw-data).
+Официальная справка по получению отчётов с сырыми данными из API AppsFlyer доступна по [ссылке](https://support.appsflyer.com/hc/en-us/articles/360007530258-Pull-API-raw-data).
 
 ## Отчёты по рекламной прибыли
 
 Для полученния этой группы отчётов используйте функцию `af_get_ad_revenue_raw_data()`.
 
-[Ссылка](https://support.appsflyer.com/hc/ru/articles/217490046-Ad-revenue-attribution-guide#ad-revenue-raw-data) на официальную документацию.
+[Ссылка](https://support.appsflyer.com/hc/ru/articles/217490046-\%D0\%A0\%D1\%83\%D0\%BA\%D0\%BE\%D0\%B2\%D0\%BE\%D0\%B4\%D1\%81\%D1\%82\%D0\%B2\%D0\%BE-\%D0\%BF\%D0\%BE-ROI360-\%D0\%90\%D1\%82\%D1\%80\%D0\%B8\%D0\%B1\%D1\%83\%D1\%86\%D0\%B8\%D1\%8F-\%D0\%B4\%D0\%BE\%D1\%85\%D0\%BE\%D0\%B4\%D0\%BE\%D0\%B2-\%D0\%BE\%D1\%82-\%D1\%80\%D0\%B5\%D0\%BA\%D0\%BB\%D0\%B0\%D0\%BC\%D1\%8B#ad-revenue-raw-data) на официальную документацию.
 
 ## Группа отчётов по неудачным установкам и событиям
 

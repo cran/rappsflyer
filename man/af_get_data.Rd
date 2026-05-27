@@ -1,10 +1,10 @@
 \name{af_get_data}
 \alias{af_get_data}
 \title{
-Get Data From 'AppsFlyer Master API'
+Get data from AppsFlyer Master API
 }
 \description{
-Get statistic data from 'AppsFlyer Master API'
+Get statistic data from AppsFlyer Master API
 }
 \usage{
 af_get_data(
@@ -57,18 +57,15 @@ Time zone used is according to the app-specific timezone. Example: \code{timezon
 Your app id from apps flyer.
 }
   \item{api_token}{
-Your AppsFlyer API token V1.0 for more details go \href{https://support.appsflyer.com/hc/en-us/articles/360004562377}{link}.
+Your AppsFlyer API token V1.0 for more details go \href{https://support.appsflyer.com/hc/en-us/articles/360004562377-Managing-AppsFlyer-tokens}{link}.
 }
-}
-\value{
-data.frame.
 }
 \author{
 Alexey Seleznev
 }
 \seealso{
-\href{https://support.appsflyer.com/hc/en-us/articles/213223166-Master-API-user-acquisition-metrics-via-API}{Master API documentation}
-\href{https://support.appsflyer.com/hc/ru/articles/208387843}{Field dictionary}
+\href{https://support.appsflyer.com/hc/en-us/articles/207034346-Master-API-user-acquisition-metrics-via-API}{Master API documentation}
+\href{https://support.appsflyer.com/hc/ru/articles/208387843-\%D0\%A1\%D0\%BB\%D0\%BE\%D0\%B2\%D0\%B0\%D1\%80\%D1\%8C-\%D0\%BF\%D0\%BE\%D0\%BB\%D0\%B5\%D0\%B9-\%D1\%81\%D1\%8B\%D1\%80\%D1\%8B\%D1\%85-\%D0\%B4\%D0\%B0\%D0\%BD\%D0\%BD\%D1\%8B\%D1\%85}{Field dictionary}
 }
 \examples{
 \dontrun{
